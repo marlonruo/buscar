@@ -1,0 +1,500 @@
+@charset "utf-8";
+@font-face {
+	font-family: 'carbon';
+	src: url('../fonts/carbon.eot?') format('eot'), url('../fonts/carbon.otf') format('opentype'), url('../fonts/carbon.woff') format('woff'), url('../fonts/carbon.ttf') format('truetype'), url('../fonts/carbon.svg#carbon') format('svg');
+}
+@font-face {
+	font-family: 'helvetica';
+	src: url('../fonts/helvetica.eot?') format('eot'), url('../fonts/helvetica.otf') format('opentype'), url('../fonts/helvetica.woff') format('woff'), url('../fonts/helvetica.ttf') format('truetype'), url('../fonts/helvetica.svg#helvetica') format('svg');
+}
+@font-face {
+	font-family: 'helveticaBold';
+	src: url('../fonts/helveticaBold.eot?') format('eot'), url('../fonts/helveticaBold.otf') format('opentype'), url('../fonts/helveticaBold.woff') format('woff'), url('../fonts/helveticaBold.ttf') format('truetype'), url('../fonts/helveticaBold.svg#helveticaBold') format('svg');
+}
+@font-face {
+	font-family: 'neo';
+	src: url('../fonts/neo.eot?') format('eot'), url('../fonts/neo.otf') format('opentype'), url('../fonts/neo.woff') format('woff'), url('../fonts/neo.ttf') format('truetype'), url('../fonts/neo.svg#neo') format('svg');
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.texto_carbon {
+	position: absolute;
+	color: #014c64;
+	text-align: center;
+	font-family: 'carbon', Arial;
+}
+.texto_helveticaBold {
+	position: absolute;
+	color: #fff;
+	text-align: center;
+	font-family: 'helveticaBold', Arial;
+}
+.texto_helvetica {
+	position: absolute;
+	color: #fff;
+	text-align: center;
+	font-family: 'helvetica', Arial;
+}
+.texto_neo {
+	position: absolute;
+	color: #fff;
+	text-align: center;
+	font-family: 'neo', Arial;
+}
+#screem {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+}
+#logo {
+	position: absolute;
+	height: 45%;
+	top: 28%;
+	left: 50%;
+}
+.plecas {
+	position: absolute;
+	width: 100%;
+	height: 7%;
+	overflow: hidden
+}
+#cargar {
+	position: absolute;
+	top: 80%;
+	left: 50%;
+}
+#naranja {
+	position: absolute;
+	background-color: #f7941e;
+	height: 3px;
+	top: 80%;
+	left: 50%;
+}
+#cargando {
+	top: 84%;
+	height: 4%;
+	width: 100%;
+}
+/*-----IDIOMAS-----*/
+
+#idiomas {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+}
+#logo2 {
+	position: absolute;
+	height: 50%;
+	top: 4%;
+	left: 50%;
+}
+.fondo_idiomas {
+	position: absolute;
+	height: 36%;
+	left: 50%;
+	bottom: 0px;
+}
+#titulo_idiomas {
+	width: 100%;
+	top: 3%;
+	position: absolute;
+	height: 16%;
+	text-align: center;
+	text-shadow: 1px 1px 2px #1C3885;
+}
+#es1, #en1 {
+	height: 15%;
+	width: 100%;
+	color: #46768d;
+}
+#es2, #en2 {
+	height: 15%;
+	width: 100%;
+	color: #fff;
+}
+#es1, #en1 {
+	height: 15%;
+	width: 100%;
+	color: #46768d;
+}
+.sombraazul {
+	text-shadow: 1px 1px 2px #1C3885;
+}
+.sombraverde {
+	text-shadow: 1px 1px 2px #11520A;
+}
+/*-----LOGIN-----*/
+
+
+
+
+#login {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	background-color: #FFFFFF
+}
+.boton_login {
+	height: 22%;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	top: 40%
+}
+#bt_login {
+	height: 7%;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	top: 68%
+}
+.tes {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 6em;
+	color: #0099cc;
+}
+.tes_chico {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 1.5em;
+	color: #006699;
+}
+.tes_chico2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 1.7em;
+	color: #007bb6;
+}
+.plecas2 {
+	position: absolute;
+	width: 100%;
+	height: 7%;
+	overflow: hidden;
+	opacity: 0.3
+}
+.bt_blanco {
+	position: absolute;
+	width: 100%;
+	height: 6%;
+	overflow: hidden;
+	border-top: 2px solid #badbeb;
+	background-color: #FFFFFF;
+	color: #007bb6;
+	text-align: center;
+	cursor: pointer;
+	padding-top: 2%
+}
+.email_error {
+	height: 9.45%;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	top: 40%;
+	margin-left: -3px;
+}
+.pass_error {
+	height: 9.45%;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	top: 49.6%;
+	margin-left: -3px;
+}
+.email_caja {
+	height: 9.45%;
+	position: absolute;
+	top: 40%;
+	margin-left: -3px;
+	left: 50%;
+}
+.email_caja_campo {
+	position: absolute;
+	text-align: center;
+	background: none;
+	border: none;
+	font-size: 1.2em;
+	color: #073c78;
+	font-family: helvetica;
+	width: 64%;
+	padding-left: 18%;
+	padding-right: 18%;
+	height: 100%;
+}
+.pass_caja {
+	height: 9.45%;
+	position: absolute;
+	top: 49.6%;
+	margin-left: -3px;
+	left: 50%;
+}
+.pass_caja_campo {
+	position: absolute;
+	text-align: center;
+	background: none;
+	border: none;
+	font-size: 1.2em;
+	color: #073c78;
+	font-family: helvetica;
+	width: 64%;
+	padding-left: 18%;
+	padding-right: 18%;
+	height: 100%;
+}
+/*REGISTRO*/
+
+#registro {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	background-color: #FFFFFF
+}
+#pass2 {
+	position: absolute;
+	height: 20%;
+	top: 60%;
+	left: 50%;
+}
+.campo {
+	position: absolute;
+	height: 36%;
+	left: 50%;
+}
+#contiene_pass {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+}
+#bt_registro {
+	border: none;
+	background: none;
+	position: absolute;
+	height: 9%;
+	top: 66%;
+	left: 50%;
+	cursor: pointer;
+	background: url(../imagenes/registrar.png) no-repeat;
+	background-position: center;
+	background-size: 80%
+}
+#bt_escan {
+	border: none;
+	background: none;
+	position: absolute;
+	height: 9%;
+	top: 78%;
+	left: 50%;
+	cursor: pointer;
+	background: url(../imagenes/scanqr.png) no-repeat;
+	background-position: center;
+	background-size: 80%
+}
+#bt_user {
+	border: none;
+	background: none;
+	position: absolute;
+	height: 9%;
+	top: 84%;
+	left: 50%;
+	cursor: pointer;
+	background: url(../imagenes/users.png) no-repeat;
+	background-position: center;
+	background-size: 80%;
+}
+#t_reg {
+	top: 4%;
+	height: 13%;
+	width: 100%;
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(28, 56, 133, 0.5);
+}
+#t_ple {
+	top: 79%;
+	height: 5%;
+	width: 100%;
+	color: #006699;
+	cursor: pointer
+}
+#cancelar {
+	top: 95%;
+	height: 5%;
+	width: 100%;
+	color: #006699;
+	cursor: pointer;
+	font-size:0.9rem
+}
+.caja {
+	height: 8.6%;
+	position: absolute;
+	margin-left: -3px;
+	left: 50%;
+}
+.caja_campo {
+	position: absolute;
+	text-align: center;
+	background: none;
+	border: none;
+	font-size: 1.2em;
+	color: #073c78;
+	font-family: helvetica;
+	width: 95%;
+	left: 2.5%;
+	height: 100%;
+}
+/*-----EXITO-----*/
+
+
+#exito {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	background-color: #FFFFFF
+}
+#c_qr {
+	position: absolute;
+	height: 36%;
+	top: 36%;
+	left: 50%;
+}
+#bt_start {
+	position: absolute;
+	height: 19%;
+	top: 80%;
+	left: 50%;
+	cursor: pointer
+}
+#t_exi {
+	top: 2%;
+	height: 13%;
+	width: 100%;
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(28, 56, 133, 0.5);
+}
+#t_here {
+	top: 18%;
+	height: 7%;
+	width: 100%;
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(28, 56, 133, 0.5);
+}
+/*-----HOME-----*/
+
+
+#home {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	background-color: #FFFFFF
+}
+.bt_home {
+	height: 9%;
+	position: absolute;
+	width: 100%;
+}
+#t_hom {
+	height: 100%;
+	width: 100%;
+	color: #008dc4;
+	position: absolute;
+	top: 0%;
+	text-align: left
+}
+#t_salir {
+	height: 100%;
+	width: 100%;
+	color: #333333;
+	position: absolute;
+	top: 0%;
+	text-align: left;
+	font-family: neo
+}
+.t_bthome {
+	height: 40%;
+	color: #fff;
+	position: absolute;
+	top: 25%;
+	text-align: left;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+	left: 25%
+}
+#t_wel {
+	height: 22%;
+	color: #666666;
+	position: absolute;
+	top: 50%;
+	width: 100%
+}
+.plecas3 {
+	position: absolute;
+	width: 100%;
+	height: 9%;
+	overflow: hidden;
+	opacity: 1
+}
+
+/*-----HORARIOS-----*/
+
+
+
+.contenido {
+	width: 100%;
+	position: absolute;
+	height: 100%;
+	overflow: auto
+}
+
+.campos_login {
+	width: 78%;
+	height: 42%;
+	left: 19%;
+	position: absolute;
+	margin-left: 2px;
+	border: none;
+	background: none
+}
+.clearing {
+	clear: both;
+}
+
+
+
+
+
+
+@media (max-height: 4000px) and (min-height: 701px) {
+   #t1_t1 { font-size: 4.5rem;
+   line-height:4.2rem }
+   #t1_t2, #email, #pass, .tes_chico2 { font-size: 1.6rem;
+   line-height:1.8rem }
+   .horario_temas {
+	font-size: 1.2rem;}
+	.horario_todo {
+	font-size: 1.2rem;}
+}
+
+@media (max-height: 700px) and (min-height: 100px) {
+   #t1_t1 { font-size: 2.6rem;
+   line-height:2.6rem }
+   #t1_t2, #email, #pass, .tes_chico2 { font-size: 1.1rem;
+   line-height:1.2rem }
+   .horario_temas {
+	font-size: 0.9rem;}
+	.horario_todo {
+	font-size: 0.9rem;}
+}
+
+
